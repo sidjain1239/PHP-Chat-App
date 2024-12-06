@@ -1,0 +1,50 @@
+body{
+    background-image: url('../images/index.jpg');
+    
+}
+.btn{
+    border-image: linear-gradient(to right, rgb(196, 144, 209) 50%,rgb(110, 10, 110));
+    border-image-slice: 1;
+    background-color: rgb(142, 90, 222);
+    font-size: 15px;
+    border-width: 3px;
+    color: white;
+}
+
+h2{
+    font-size: 20px;
+}
+.txt{
+    font-size: 15px;
+    background-color:#00000043;
+    border-color: rgb(229, 175, 229);
+    border-width: 0px 0px 4px 0px;
+    color: azure;
+
+}
+.success{
+    font-size: 20px;
+    background-color:#1eb30df7;
+    border-color: white;
+    border-width: 2px 2px 2px 2px;
+    color: azure;
+    border-radius: 20px;
+    width:auto;
+    text-align: center;
+}
+
+.error{
+    font-size: 20px;
+    background-color:#e44e0df7;
+    border-color: white;
+    border-width: 2px 2px 2px 2px;
+    color: azure;
+    border-radius: 20px;
+    width:auto;
+    text-align: center;
+}
+.note{
+    font-size: 19px;
+    color: aliceblue;
+    text-align: center;
+}

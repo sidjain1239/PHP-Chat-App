@@ -1,0 +1,15 @@
+body{
+    background-image: url('../images/index.jpg');
+    }
+h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+.btn{
+    border-image: linear-gradient(to right, rgb(196, 144, 209) 50%,rgb(110, 10, 110));
+    border-image-slice: 1;
+    background-color: rgb(142, 90, 222);
+    font-size: 25px;
+    border-width: 3px;
+    color: white;
+}

@@ -1,0 +1,87 @@
+body{
+    background-image: url('../images/index.jpg');
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    position: fixed;
+    background-color: rgb(68, 5, 73) ;
+    width: 100%;
+    color: aliceblue;
+    font-size: 25px;
+    height: 75px;
+    margin-bottom: 0px;
+  }
+  html{
+    height:100%;
+  }
+  .footer {
+    background-color: rgb(68, 5, 73) ;
+    width: 100%;
+    color: aliceblue;
+    font-size: 25px;
+    height: 45px;
+    position: absolute;
+    position: fixed;
+    bottom: 0%;
+  }
+  .txt{
+    font-size: 15px;
+    background-color:#00000043;
+    border-color: rgb(229, 175, 229);
+    border-width: 0px 0px 4px 0px;
+    color: azure;
+    height: 30px;
+    width:80%;
+}
+.sendbtn{
+    border-radius:50%;
+    background-color: darkmagenta;
+    border-color: rgb(239, 153, 239);
+
+}
+.img{
+    height: 25px;
+    width: 25px;
+}
+.img2{
+    margin-right: 0%;
+  
+}
+
+
+.recieve{
+  text-align: left;
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  background-color: white;
+  
+  min-height:20px;
+
+  border-radius: 10px;
+  margin-right: 30%;
+}
+
+.send{
+  font-size: 20px;
+  text-align: right;
+  background-color: rgb(224, 182, 224);
+  
+  border-radius: 20px;
+  min-height:20px;
+  min-width: 100px;
+
+  border-radius: 10px;
+  
+
+  margin-left: 30%;
+}
+
+button{
+  border: 0;
+  background:none;
+
+}
+
